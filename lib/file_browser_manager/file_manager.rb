@@ -13,7 +13,7 @@ class FileManager
       {name: name, path: [path, name].compact.join('/'), type: File.directory?(element) ? 'dir' : 'file'}
     end
 
-    return list.sort_by { |element| element[:type] }
+    return list.sort_by{ |element| element[:name] }.sort_by { |element| element[:type] }
   end
 
 end
