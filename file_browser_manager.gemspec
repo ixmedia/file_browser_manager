@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 
 
   s.name              = "file_browser_manager"
-  s.version           = "0.0.3"
+  s.version           = "0.0.4"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["iXmedia"]
   s.email             = ["suivi@ixmedia.com"]
